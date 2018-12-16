@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configurationFilesAndDirectories>
+	<configurationFile type="web-xml">
+		<location>WeatherDataApp_WAR/WEB-INF/BAD_web.xml</location>
+		<classRootDirectory>WeatherDataApp_WAR/WEB-INF/classes</classRootDirectory>
+	</configurationFile>
+	<configurationFile type="beans-xml">
+		<location>WeatherDataApp_WAR/WEB-INF/BAD_beans.xml</location>
+		<classRootDirectory>WeatherDataApp_WAR/WEB-INF/classes</classRootDirectory>
+	</configurationFile>
+</configurationFilesAndDirectories>

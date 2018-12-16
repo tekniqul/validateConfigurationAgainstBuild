@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configFiles>
+  	<web-xml>
+  		<!-- this finds both WeatherDataApp servlets -->
+		<xPath>//servlet-class</xPath>
+		<ignorePackage>org.springframework</ignorePackage>
+		<ignorePackage>flex.messaging</ignorePackage>	
+  	</web-xml>
+  	<beans-xml>
+  		<xPath>//bean/@class</xPath>
+  		<ignorePackage/>
+  	</beans-xml>
+</configFiles>
